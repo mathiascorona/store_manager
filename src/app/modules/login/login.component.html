@@ -1,0 +1,7 @@
+<section class="login-container">
+    <form class="form" [formGroup]="formGroup" (ngSubmit)="login()">
+        <input formControlName="username" type="text" placeholder="Username" />
+        <input formControlName="password" type="password" placeholder="Password" />
+        <button type="submit">Login</button>
+    </form>
+</section>
