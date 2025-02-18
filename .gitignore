@@ -41,3 +41,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+service.srv/.env
+service.srv/package-lock.json
+service.srv/dist/*
